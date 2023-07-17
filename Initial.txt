@@ -1,0 +1,15 @@
+1. Finance, Human Capital, and Resources dipisah subnetnya
+2. Kenapa pakai EIGRP (Yakinkan ko CP kalau kita pilih choice yang benar)
+3. Tambahin kabel dari R1 ke R3
+4. Kurang Client
+
+Pertanyaan:
+- Cara (praktek) ngoper paket menggunakan gateway of last resort -> Static routing.
+- Native vlan
+- VTP (VLAN Trunking Protocol)
+- Bedanya VPN dan proxy
+- Cara kerja VPN
+- Link aggregation
+- VOIP
+- SPOF -> Redundancy
+- Three tier collapse core & Spine leaf
