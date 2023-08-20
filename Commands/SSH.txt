@@ -1,0 +1,14 @@
+conf t
+ip domain-name jakarta_ssh
+crypto key generate rsa
+Yesyes22-2!
+1024
+line vty 0 15
+transport input ssh
+login local 
+ip ssh ver 2
+username admin privilege 15 password Yesyes22-2!
+do wr
+
+- Test
+ssh -l admin [ip_addr]

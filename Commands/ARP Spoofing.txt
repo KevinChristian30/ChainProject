@@ -1,0 +1,17 @@
+en
+conf t
+ip dhcp snooping vlan 111-115,121-124,131-134,200,999
+int range fa0/1
+ip arp inspection trust
+ip arp inspection validate src-mac
+ip arp inspection validate dst-mac
+ip arp inspect val src-mac dst-mac ip
+
+en
+conf t
+ip dhcp snooping vlan 111-115,121-124,131-134,200,999
+int range fa0/1-2
+ip arp inspection trust
+ip arp inspection validate src-mac
+ip arp inspection validate dst-mac
+ip arp inspect val src-mac dst-mac ip

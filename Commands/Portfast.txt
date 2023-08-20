@@ -1,0 +1,11 @@
+en
+conf t
+int fa0/3
+spanning-tree portfast
+spanning-tree bpduguard enable
+
+en
+conf t
+int range fa0/3-5
+spanning-tree portfast
+spanning-tree bpduguard enable

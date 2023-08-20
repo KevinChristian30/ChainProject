@@ -1,0 +1,9 @@
+en
+conf t
+int range fa0/3-5
+storm-control broadcast level 1.50
+
+en
+conf t
+int fa0/3
+storm-control broadcast level 1.50

@@ -1,0 +1,13 @@
+en
+conf t
+ip dhcp snooping vlan 111-115,121-124,131-134,200,999
+int range fa0/1-2
+ip dhcp snooping trust
+int fa0/3
+ip dhcp snooping trust
+
+en
+conf t
+ip dhcp snooping vlan 111-115,121-124,131-134,200,999
+int range fa0/1-2
+ip dhcp snooping trust

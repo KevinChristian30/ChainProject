@@ -1,0 +1,16 @@
+int range fa0/13-14
+channel-group 5 mode auto
+channel-protocol LACP
+do wr m
+
+int fa0/6
+channel-group 6 mode auto
+channel-protocol LACP
+do wr m
+
+int fa0/8
+channel-group 6 mode auto
+channel-protocol LACP
+do wr m
+
+sh etherchannel summary

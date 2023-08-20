@@ -1,0 +1,7 @@
+vtp mode server
+vtp domain intervlan
+vtp password Yesyes22-2!
+
+vtp mode client
+vtp domain intervlan
+vtp password Yesyes22-2!
